@@ -6,45 +6,44 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #showcase {
   /* height: 100vh; */
   height: 43vh;
 }
 
-nav {
-  display: flex;
+ul {
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  margin-right: 120px;
 }
 
-.left-links {
-  flex: 1 1 200px;
+li {
+  float: right;
 }
 
-.right-links {
-  display: inline-block;
-  padding-top: 30px;
+li a {
+  display: block;
   text-decoration: none;
   font-size: 17px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 .le {
   padding-top: 30px;
-  padding-left: 110px;
+  padding-left: 80px;
   width: 60px;
-}
-
-.name {
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: white;
-  
 }
 
 h1 {
   font-size: 50px;
   position: absolute;
   max-width: 442px;
-  left: 130px;
+  left: 120px;
   top: 125px;
   color: white;
 }
@@ -54,7 +53,7 @@ h2 {
   max-width: 800px;
   position: absolute;
   max-width: 800px;
-  left: 130px;
+  left: 120px;
   top: 195px;
   color: #a4c6e5;
   opacity: 35%;
@@ -64,7 +63,7 @@ p.bio {
   font-size: 20px;
   max-width: 400px;
   position: absolute;
-  left: 130px;
+  left: 120px;
   top: 265px;
 }
 
