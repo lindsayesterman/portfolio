@@ -12,17 +12,17 @@ html {
 
 #showcase {
   /* height: 100vh; */
-  height: 43vh;
+  height: 49vh;
 }
 
 ul {
   list-style-type: none;
-  font-family: "Rubik", sans-serif;
-  margin-right: 120px;
+  margin-right: 130px;
 }
 
 li {
   float: right;
+  font-family: "Rubik", sans-serif;
 }
 
 li a {
@@ -30,25 +30,26 @@ li a {
   text-decoration: none;
   font-size: 17px;
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .le {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 80px;
   width: 60px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 45px;
   position: absolute;
-  max-width: 442px;
+  max-width: 750px;
   left: 120px;
-  top: 125px;
+  top: 150px;
   color: white;
+  font-family: 'Work Sans', sans-serif;
 }
 
-h2 {
+/* h2 {
   font-size: 40px;
   max-width: 800px;
   position: absolute;
@@ -57,14 +58,15 @@ h2 {
   top: 195px;
   color: #a4c6e5;
   opacity: 35%;
-}
+} */
 
 p.bio {
   font-size: 20px;
   max-width: 400px;
   position: absolute;
   left: 120px;
-  top: 265px;
+  top: 285px;
+  color: rgb(160, 174, 192);
 }
 
 .container {
