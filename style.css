@@ -46,11 +46,16 @@ h1 {
 
 p.bio {
   font-size: 20px;
-  max-width: 400px;
+  max-width: 440px;
   position: absolute;
   left: 120px;
   top: 285px;
   color: rgb(160, 174, 192);
+}
+
+.center {
+  display: block;
+  margin: 0px auto;
 }
 
 .container {
@@ -91,8 +96,6 @@ p.bio {
 }
 
 .work-img {
-  display: block;
-  margin: 0px auto;
   width: 65%;
 }
 
@@ -119,3 +122,4 @@ div.project h3 {
   font-size: 20px;
   font-family: "Rubik", sans-serif;
 }
+
