@@ -6,6 +6,10 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -105,7 +109,7 @@ p.bio {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 9999;
   background-color: transparent;
 }
 
@@ -126,4 +130,10 @@ div.project p {
 div.project h3 {
   font-size: 20px;
   font-family: "Rubik", sans-serif;
+}
+
+.item img:hover {
+  opacity: 0.3;
+  transition: 0.5s ease;
+  filter: alpha(opacity=30);
 }
