@@ -97,12 +97,16 @@ input:checked ~ .dropdown__items {
   transform: scale(1.2);
 }
 
+.intro-cont {
+  position: relative;
+}
+
 h1 {
-  font-size: 45px;
   position: absolute;
   max-width: 750px;
-  left: 120px;
+  left: 8%;
   top: 150px;
+  font-size: 3rem;
   color: white;
   font-family: "Work Sans", sans-serif;
 }
@@ -111,7 +115,7 @@ p.bio {
   font-size: 20px;
   max-width: 440px;
   position: absolute;
-  left: 120px;
+  left: 8%;
   top: 285px;
   color: rgb(160, 174, 192);
 }
