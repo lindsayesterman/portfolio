@@ -216,3 +216,15 @@ div.project h3 {
     margin-right: 30px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .item {
+    max-width: 84%;
+  }
+  .container{
+    padding-top: 36vh;
+  }
+  .item p {
+    padding-bottom: 20px;
+  }
+}
