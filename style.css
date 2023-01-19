@@ -29,7 +29,7 @@ li a.nav {
   text-decoration: none;
   font-size: 17px;
   margin-left: 20px;
-  margin-top: 70px;
+  margin-top: 65px;
 }
 
 .le {
@@ -199,4 +199,20 @@ div.project h3 {
   opacity: 0.7;
   transition: 0.5s ease;
   filter: alpha(opacity=30);
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.2rem;
+    max-width: 450px;
+  }
+
+  .le {
+    padding-left: 10px;
+    width: 60px;
+  }
+
+  ul {
+    margin-right: 30px;
+  }
 }
