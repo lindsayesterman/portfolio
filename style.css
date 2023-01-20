@@ -118,6 +118,7 @@ p.bio {
   left: 8%;
   top: 285px;
   color: rgb(160, 174, 192);
+  background-color: transparent;
 }
 
 .center {
@@ -221,10 +222,30 @@ div.project h3 {
   .item {
     max-width: 84%;
   }
-  .container{
-    padding-top: 36vh;
-  }
   .item p {
     padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 490px) and (max-height: 736px) {
+  .container {
+    padding-top: 42vh;
+  }
+  p.bio {
+    font-size: 18px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 490px) and (min-height: 737px) {
+  .container {
+    padding-top: 30vh;
+  }
+  p.bio {
+    font-size: 15px;
+    width: 69%;
   }
 }
