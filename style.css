@@ -228,6 +228,12 @@ div.project h3 {
   h1 {
     font-size: 2rem;
   }
+  div.project h2,
+  div.project p,
+  div.project h3,
+  .work-img {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 490px) and (max-height: 736px) {
