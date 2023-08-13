@@ -165,6 +165,8 @@ p.bio {
 
 .work-img {
   width: 65%;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .link {
@@ -233,6 +235,7 @@ div.project h3 {
   div.project h3,
   .work-img {
     width: 75%;
+    height: 600px;
   }
 }
 
